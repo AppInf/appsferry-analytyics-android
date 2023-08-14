@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.appsferry.proto;
+option java_package = "com.appsferry.proto.pkg";
+
+message ProData {
+  string name = 1;
+  bool isdone = 2;
+  int64 id = 3;
+
+}
